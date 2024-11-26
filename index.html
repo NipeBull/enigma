@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Enigma da Transformação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hint-button">
+        <button id="hint-button">Dica</button>
+        <p id="hint-feedback"></p>
+    </div>
+
+    <div class="container">
+        <h1>O Enigma da Transformação</h1>
+        <p>
+            "Entre símbolos e palavras, cada movimento carrega um segredo. Resolva as pistas para transformar o código inicial em algo novo."
+        </p>
+
+        <h2>Código inicial: <span id="initial-code">H28T8MSGjjoR</span></h2>
+
+        <div class="instructions">
+            <h3>Instruções</h3>
+            <ol>
+                <li><strong>Passagem da Oitava Letra:</strong> A oitava letra do alfabeto é H. Substitua o primeiro caractere por J (oitava + 2).</li>
+                <li><strong>Passagem da Décima Nona Letra:</strong> A décima nona letra do alfabeto é S. Substitua o sétimo caractere por X.</li>
+                <li><strong>Passagem da Palavra "Misterioso":</strong> A quarta letra da palavra "Misterioso" é T. Substitua o quarto caractere por F.</li>
+                <li><strong>Passagem do Primeiro Caractere:</strong> O primeiro caractere do código inicial é H. Substitua o quinto caractere por G.</li>
+                <li><strong>Passagem da Palavra "Enigma":</strong> A última letra da palavra "Enigma" é A. Substitua o nono caractere por G.</li>
+                <li><strong>Duplicação dos Oitavos:</strong> Duplique os dois dígitos 8 nas posições finais.</li>
+                <li><strong>Substituição Final:</strong> Substitua o décimo caractere por J.</li>
+            </ol>
+        </div>
+
+        <h3>Digite sua resposta:</h3>
+        <textarea id="solution" placeholder="Digite o código transformado..."></textarea>
+        <button id="verify-button">Verificar</button>
+
+        <p id="feedback"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
